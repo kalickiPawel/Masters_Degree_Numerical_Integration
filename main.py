@@ -43,7 +43,7 @@ def main(args):
     #     integrate=integrate(function, a, b, i))
     # )
     obj = ObjLoader()
-    obj.load_model("example.obj")
+    obj.load_model("models/example.obj")
     print(obj.model.shape)
 
     x = []
